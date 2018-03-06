@@ -1,13 +1,5 @@
----
-title: Intro to Python 3
-duration: "1:5"
-creator:
-    name: Juan Ginzo
-    city: LDN
----
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Python 3
-Week 1 | Lesson 1.4
+Week 1 | Lesson 3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -19,19 +11,7 @@ Week 1 | Lesson 1.4
 *Before this lesson, you should already be able to:*
 - Have a cursory explanation/idea of if/else, if/elif/else, loops, and functions.
 
-### LESSON GUIDE
-| TIMING  | TYPE  | TOPIC  |
-|:-:|---|---|
-| 10 min  | [Introduction](#introduction)   | Control Flow  |
-| 15 min  | [Demo](#demo)  | if, if/else  |
-| 15 min  | [Demo](#demo)  | if/elif/else  |
-| 15 min  | [Demo](#demo)  | loops  |
-| 15 min  | [Demo](#demo)  | functions  |
-| 15 min  | [Independent Practice](#ind-practice)  
-| 5 min  | [Conclusion](#conclusion)
----
 
-<a name="Control Flow"></a>
 ## Introduction: Topic (10 mins)
 
 It is very important to control program execution because in real situations are full of conditions and if you want your program to mimic the real world you need to transform those real world situations into your program . For this, you need to control the execution of your program statements. Controlling the program execution sequence is commonly known as control flow.
@@ -39,7 +19,7 @@ It is very important to control program execution because in real situations are
 [control flow](http://www.codeproject.com/Articles/663666/Python-Basics-Understanding-The-Flow-Control-State)
 
 
-<a name="if, if/else"></a>
+
 ## Demo / Guided Practice: if, if/else (15 mins)
 The general Python syntax for a simple if statement is:
 ```bash
@@ -50,7 +30,7 @@ The general Python syntax for a simple if statement is:
 If the condition is true, then do the indented statements. If the condition
 is not true, then skip the indented statements.
 
-> Instructor Note: code also in [demo code folder](https://github.com/generalassembly-studio/dsi-course-materials/blob/Week-1-Lesson-1.4/curriculum/04-lessons/week-01/1.4-lesson/code/Week%201%20Lesson%201.4%20%20demo%20code.ipynb)
+> Instructor Note: code also in demo code in the same folder
 
 In iPython notebook type:
 ```bash
@@ -118,7 +98,6 @@ Play around inputting numbers that are < 25 or > 25.
 **Check**: What is the general syntax for an if statement? an if/else?
 
 
-<a name="if/elif/else"></a>
 ## Demo / Guided Practice: if/elif/else (15 mins)
 The syntax for an if-elif-else statement is indicated in general below:
 
@@ -162,7 +141,6 @@ True condition.
 **Check**: How many indented blocks in an if/elif/else are executed?
 
 
-<a name="loops"></a>
 ## Demo / Guided Practice: loops (15 mins)
 
 Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.
@@ -193,7 +171,6 @@ Knowledge check: what's happening here? Explain how the code returns what it doe
 [for loop](http://www.codeproject.com/Articles/663666/Python-Basics-Understanding-The-Flow-Control-State)
 
 
-<a name="functions"></a>
 ## Demo / Guided Practice: functions (15 mins)
 
 - You can define functions to provide the required functionality. Here are simple rules to define a function in Python.
@@ -240,18 +217,8 @@ It looks like a car park out there!
 
 **Check** What’s the general syntax for a function? Why do you think functions might be useful?
 
-<a name="ind-practice"></a>
-## Independent Practice: Topic (10 minutes)
-- What is the general syntax/format of:  
-        -  if/else?
-        -  if/elif/else?
-        -  loop?
-        - function?
-- Define and explain each to a partner
-
-<a name="conclusion"></a>
 ## Conclusion (5 mins)
 Today we learned about if/else, if/elif/else, loops, and functions. Practice coding each until you feel comfortable. If you understand basic control flow concepts, you're on your way to writing fantastic executable programs!
 
 ## Bonus Challenges
-Once you've mastered the basics, further your understanding of Python by attempting "[Alternate Code Challenges 3](code/starter-code/Bonus%20Code%20Challenges%203%20Starter%20Code%20-%20Week%201%20Lesson%202.2.ipynb#)", involving recursive functions.
+Once you've mastered the basics, further your understanding of Python by attempting the challenge in this folder, involving recursive functions.
